@@ -7,7 +7,7 @@ class DrizzleView < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/bytaesu/drizzle-view/releases/download/v#{version}/drizzle-view-darwin-amd64.tar.gz"
-      sha256 "fe427f3a44c198c9a8b71cee62a89fad7413cebc68f26acff82b2738fb76ad45"
+      sha256 "3841452062860d8309db740a8270b50dde33e0d8862f04d08e3c8c53f444c697"
 
       def install
         bin.install "drizzle-view-darwin-amd64" => "drizzle-view"
