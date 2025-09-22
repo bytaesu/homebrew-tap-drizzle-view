@@ -14,7 +14,7 @@ class DrizzleView < Formula
       end
     elsif Hardware::CPU.arm?
       url "https://github.com/bytaesu/drizzle-view/releases/download/v#{version}/drizzle-view-darwin-arm64.tar.gz"
-      sha256 "fe427f3a44c198c9a8b71cee62a89fad7413cebc68f26acff82b2738fb76ad45"
+      sha256 "f02d8f976bac8955071fbe5a34fcb727fd36ada288498842dcf38bf5b928e877"
 
       def install
         bin.install "drizzle-view-darwin-arm64" => "drizzle-view"
