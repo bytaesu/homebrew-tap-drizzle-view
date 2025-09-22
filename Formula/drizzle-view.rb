@@ -1,7 +1,7 @@
 class DrizzleView < Formula
   desc "Unified interface for Drizzle Studio and Drizzle Visualizer"
   homepage "https://github.com/bytaesu/drizzle-view"
-  version "0.0.1"
+  version "0.0.3"
   license "MIT"
 
   on_macos do
